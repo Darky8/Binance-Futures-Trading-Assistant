@@ -37,3 +37,6 @@ else:
     profit = round(quantity*final_price*leverage*(current_price-final_price)/current_price,2)
     color = "\033[31m"
 print(f"Current {coin} price: {final_price}, {color}Profit: {profit} ({round((final_price-current_price)/current_price*100,2)}%){color}\033[0m, {color}{long_short}\033[0m")
+
+
+input('Press ENTER to exit')
